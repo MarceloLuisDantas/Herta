@@ -16,15 +16,22 @@ version:            0.1.0.0
 author:             Marcelo Dantas
 maintainer:         marcelodantas257gh@gmail.com
 
+library
+    other-modules: CodeLoader
+                  ,Core
+                  ,FunctionProcessor
+                  ,Memoria
+                  ,Mensagens
+
 -- A copyright notice.
 -- copyright:
--- category:
+-- category:   
 extra-source-files:
     CHANGELOG.md
     README.md
 
 executable Herta
-    main-is:          Herta.hs
+    main-is:          Main.hs
 
     -- Modules included in this executable, other than Main.
     -- other-modules:
@@ -32,5 +39,6 @@ executable Herta
     -- LANGUAGE extensions used by modules in this package.
     -- other-extensions:
     build-depends:    base ^>=4.16.4.0
+                    , unordered-containers 
     hs-source-dirs:   app
     default-language: Haskell2010
