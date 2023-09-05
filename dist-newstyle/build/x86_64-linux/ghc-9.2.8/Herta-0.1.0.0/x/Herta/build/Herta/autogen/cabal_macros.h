@@ -10,6 +10,16 @@
   (major1) == 0 && (major2) <  1 || \
   (major1) == 0 && (major2) == 1 && (minor) <= 0)
 #endif /* MIN_VERSION_Herta */
+/* package Herta-0.1.0.0 */
+#ifndef VERSION_Herta
+#define VERSION_Herta "0.1.0.0"
+#endif /* VERSION_Herta */
+#ifndef MIN_VERSION_Herta
+#define MIN_VERSION_Herta(major1,major2,minor) (\
+  (major1) <  0 || \
+  (major1) == 0 && (major2) <  1 || \
+  (major1) == 0 && (major2) == 1 && (minor) <= 0)
+#endif /* MIN_VERSION_Herta */
 /* package base-4.16.4.0 */
 #ifndef VERSION_base
 #define VERSION_base "4.16.4.0"

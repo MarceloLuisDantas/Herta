@@ -10,6 +10,26 @@
   (major1) == 0 && (major2) <  1 || \
   (major1) == 0 && (major2) == 1 && (minor) <= 0)
 #endif /* MIN_VERSION_Herta */
+/* package base-4.16.4.0 */
+#ifndef VERSION_base
+#define VERSION_base "4.16.4.0"
+#endif /* VERSION_base */
+#ifndef MIN_VERSION_base
+#define MIN_VERSION_base(major1,major2,minor) (\
+  (major1) <  4 || \
+  (major1) == 4 && (major2) <  16 || \
+  (major1) == 4 && (major2) == 16 && (minor) <= 4)
+#endif /* MIN_VERSION_base */
+/* package unordered-containers-0.2.19.1 */
+#ifndef VERSION_unordered_containers
+#define VERSION_unordered_containers "0.2.19.1"
+#endif /* VERSION_unordered_containers */
+#ifndef MIN_VERSION_unordered_containers
+#define MIN_VERSION_unordered_containers(major1,major2,minor) (\
+  (major1) <  0 || \
+  (major1) == 0 && (major2) <  2 || \
+  (major1) == 0 && (major2) == 2 && (minor) <= 19)
+#endif /* MIN_VERSION_unordered_containers */
 
 /* tool gcc-11 */
 #ifndef TOOL_VERSION_gcc
