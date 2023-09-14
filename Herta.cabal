@@ -20,7 +20,7 @@ extra-source-files:
   README.md
 
 library
-  other-modules:
+  exposed-modules:
     CodeLoader
     Core
     FunctionsProcessor

@@ -1,3 +1,4 @@
 module Memoria where
-import Data.HashMap.Strict
+import qualified Data.HashMap.Strict as HM
 
+type MemoriaInteiros = HM.HashMap String Int
